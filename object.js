@@ -29,19 +29,37 @@
 // delete myPet.age;
 // console.log(myPet);
 
-const myPet = {
-    name: "Travis",
-    age: 2,
-    color: "white",
-    species: "Hulo Biral",
-    isMale: true,
-    food: "Fish",
-    "is married": true
+// const myPet = {
+//     name: "Travis",
+//     age: 2,
+//     color: "white",
+//     species: "Hulo Biral",
+//     isMale: true,
+//     food: "Fish",
+//     "is married": true
+// };
+
+// // object loopp for in
+// for (let key in myPet) {
+//     console.log(key, typeof key);
+// }
+// console.log("------------------------");
+
+const student = {
+    name: {
+        firstName: "Elias",
+        lastName: "Garcia"
+    },
+    age: 18,
+    gender: "male",
+    subjects: ["Math", "Bangla"],
+    roll: 34
 };
 
-// object loopp for in
-for (let key in myPet) {
-    console.log(key, typeof key);
-}
-console.log("------------------------");
+console.log(student.name);
+console.log(student.name.firstName);
+
+
+
+console.log(student.subjects[1]);
 
