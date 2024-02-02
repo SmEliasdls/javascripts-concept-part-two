@@ -8,8 +8,11 @@
 .start {
     text-align: center;
 }
-
+.image{
+    text-align: center;
+}
 .thanks {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     text-align: center;
+    color: rgb(39, 204, 204);
 }
