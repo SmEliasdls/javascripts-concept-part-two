@@ -30,3 +30,10 @@ while (k <= 5) {
     k++; // k = k + 1
 }
 console.log(mul);
+
+
+// rare case do while use হবে 
+let i = 0;
+do {
+    console.log(i); i++}
+while(i>10)
